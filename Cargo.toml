@@ -1,0 +1,16 @@
+[package]
+name = "starsystem"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+authors = ["Justin Icenhour"]
+description = "A simple Enum based entity component system with world abstraction layer."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1"
+random-string = "1"
+serde = { version = "1", features = ["derive", "rc"] }
+strum = "0"
+rand = "0"
